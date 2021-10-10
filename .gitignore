@@ -1,0 +1,4 @@
+/build/
+/.gradle/
+/.idea/*.xml
+/.idea/.gitignore
