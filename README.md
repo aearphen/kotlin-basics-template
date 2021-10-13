@@ -1,4 +1,4 @@
-# GitHub Template For Kotlin - PW 1
+# GitHub template for Kotlin course
 
 This template contains everything to make the Practical Work.  
 
@@ -7,6 +7,13 @@ To run the project, you have to open a terminal at the root of the project and r
 ```shell
 ./gradlew run
 ```
+
+To execute all unit test, you have to open a terminal at the root of the project and run
+```shell
+./gradlew test
+```
+
+Reports are located at `build/reports` and test results are located 
 
 This is the template file structure. (Create files or directories if needed)
 ```text
@@ -26,17 +33,15 @@ This is the template file structure. (Create files or directories if needed)
     │   ├── kotlin
     │   │   └── fr
     │   │       └── iem
-    │   │           ├── controller
-    │   │           ├── main.kt
-    │   │           └── model
+    │   │           └── main.kt
     │   └── resources
-    │       ├── pw-1
-    │       │   └── json
-    │       │       ├── item.json
-    │       │       └── list.json
-    │       └── pw-2
-    │           └── md5.txt
+    │       └── json
+    │            ├── iron_man.json
+    │            └── response.json
     └── test
         ├── kotlin
+        │   │   │   └── fr
+        │   │       └── iem
+        │   │           └── ExampleTest.kt 
         └── resources
 ```
